@@ -1,0 +1,48 @@
+// sidebar.scss
+.Sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  height: 935px;
+  background: #191718;
+
+  .HomeItem,
+  .ServicesItem,
+  .NewsItem,
+  .BlogItem,
+  .ContactItem {
+    position: relative;
+    width: 100%;
+    height: 44px;
+
+    .Home {
+      position: absolute;
+      top: 14px;
+      left: 16px;
+      width: 57px;
+      height: 19px;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+      color: #aaaaaa;
+    }
+
+    .Border {
+      position: absolute;
+      top: 44px;
+      width: 100%;
+      height: 0;
+      border-top: 1px solid #5c5c5c;
+    }
+  }
+}
+
+.HomeItem:hover,
+.ServicesItem:hover,
+.NewsItem:hover,
+.BlogItem:hover,
+.ContactItem:hover {
+  background-color: #5c5c5c;
+}

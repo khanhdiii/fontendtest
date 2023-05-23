@@ -1,0 +1,16 @@
+.home {
+  display: flex;
+  height: 100vh;
+
+  .homeContainer {
+    flex: 1;
+    padding: 20px;
+  }
+  .footer {
+    width: 100%;
+    bottom: 0%;
+    margin-left: 10%;
+    background: #ffffff;
+    border-top: 1px solid #dedede;
+  }
+}
